@@ -1,0 +1,12 @@
+<div class="table table-hover">
+    <thead>
+        <th>TASK</th>
+        <th>Date</th>
+        <th>completed</th>
+    </thead>
+    <tr *ngFor="let ta of task">
+        <td>{{ta.task}}</td>
+        <td>{{ta.date}}</td>
+        <td><button class="btn btn-success">completed</button></td>
+    </tr>
+</div>

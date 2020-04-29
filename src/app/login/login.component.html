@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="row">
+<div class="col-sm-4"></div>
+<div class="col-sm-4">
+<div class="jumbotron" id="x">
+    <h2 class="text-center mb-5">LOGIN</h2>
+    <form #ref="ngForm" (ngSubmit)="loginData(ref.value)">
+        <div class="form-group">
+            <label for="u">username</label>
+          
+            <input type="text" name="email"  id="u"  placeholder="enter username" ngModel class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="p">password</label>
+          
+            <input type="password" name="password" placeholder="enter password" ngModel id="p" class="form-control">
+        </div>
+        <div class="text-center">
+            <button class="btn btn-dark" type="submit">LOGIN</button>
+        </div>
+    </form>
+</div>
+</div>
+<div class="col-sm-4"></div>
+</div>
+</div>
+

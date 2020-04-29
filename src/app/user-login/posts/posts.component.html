@@ -1,0 +1,8 @@
+<div *ngFor="let ph of data">
+<button (click)="photoco()"><img src={{ph.url}} width=100% height="200px">
+</button>
+</div>
+<div *ngFor="let co of comments">
+    <p>{{co.id}}</p>
+    <p>{{co.body}}</p>
+</div>

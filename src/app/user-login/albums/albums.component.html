@@ -1,0 +1,8 @@
+<div class="container">
+    <a href="#a" class="btn btn-primary" data-toggle="collapse"><h1>album</h1></a>
+    <div id="a" class="collapse">
+        <div *ngFor="let al of data">
+            <img src={{al.url}} alt="albums" style="width:150px">
+        </div>
+    </div>
+  </div>
